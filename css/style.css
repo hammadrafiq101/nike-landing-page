@@ -1,0 +1,169 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.logoimg {
+    width: 160px;
+}
+
+.logoimg img {
+    width: 160px;
+}
+
+.maincontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border-bottom: 3px solid brown;
+    position: sticky;
+    top: 0;
+}
+
+.link {
+    display: flex;
+}
+
+.linkitem {
+
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 20px;
+    color: white;
+
+}
+
+.btn button {
+    padding: 15px;
+    color: white;
+    border: none;
+    background-color: brown;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.linkitem:hover {
+    transition: 1s;
+    background-color: brown;
+    color: white;
+
+}
+
+.main-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.left-container {
+    width: 30%;
+}
+
+.left-container h1 {
+    font-size: 70px;
+}
+
+.left-container .shop {
+    padding: 15px;
+    color: white;
+    border: none;
+    background-color: brown;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.category {
+    padding: 15px;
+    color: black;
+    border: none;
+    background-color: none;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.right-container {
+    width: 45%;
+}
+
+.card-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card-main .card {
+    margin-left: 20px;
+}
+
+.card {
+    width: 17%;
+    padding: 20px;
+    border: 1px solid gray;
+    box-shadow: 7px 7px 10px gray;
+}
+.card div{
+    padding-top: 15px;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 10px gray;
+}
+
+.shop-btn .shop {
+    padding: 15px;
+    color: white;
+    border: none;
+    background-color: brown;
+    width: 150px;
+    border-radius: 5px;
+}
+
+i {
+    color: goldenrod;
+}
+
+.arrow-up {
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+}
+
+.arrow-up i {
+    color: white;
+    font-size: 25px;
+}
+
+.footer {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 50px;
+    height: 400px;
+    border-top: 1px solid;
+}
+
+ul li {
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
